@@ -1,0 +1,139 @@
+:root {
+    --Lime-Green: #1db489;
+    --Bright-Red: #dc414c;
+    --Facebook: #1a8ef5;
+    --Twitter: #1ca0f2;
+    --Instagram: linear-gradient(#fdc468, #df4996);
+    /* linear gradient #fdc468 to #df4996; */
+    --YouTube:  #C4032A;
+
+    --Toggle: #aeb3cb;
+
+    /* BG */
+    --White-bg: #ffffff;
+    /* (Top BG Pattern) */
+    --Very-Pale-Blue : #f5f7ff;
+    /* (Card BG) */
+    --Light-Grayish-Blue : #f0f2fa;
+    /* (Text) */
+    --Dark-Grayish-Blue : #63687e;
+    /* (Text) */
+    --Very-Dark-Blue : #1e202a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ========== Card component ========== */
+
+.big-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin: 1em 2em;
+}
+
+.big-card {    
+    background-color: var(--Light-Grayish-Blue);
+    border-top: 0.2em solid var(--Facebook);
+    border-radius: .4em;
+    padding: 1em 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    gap: 0.4em;
+    display: flex;
+    align-items: center;
+}
+
+.profile i {
+    color: var(--Facebook);
+}
+
+.profile .username {
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.big-card .subscribers {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+.big-card .followers {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+
+    margin-top: 0;
+}
+
+.subscribe-amount {
+    font-size: 0.8rem;
+}
+
+.accent-green {
+    color: var(--Lime-Green)
+}
+
+.accent-red {
+    color: var(--Bright-Red);
+}
+
+/* ========== Big card 2 ========== */
+
+.big-card-2 {
+    border-top-color: var(--Twitter);
+}
+
+.profile i {
+    font-size: 1.5rem;
+    color: var(--Twitter);
+}
+
+/* ========== Big card 3 ========== */
+
+.big-card-3 {
+    background: linear-gradient(#f5f7ff,#f5f7ff), 
+                linear-gradient(to right, #fdc468, #df4996);
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; /* this is important */
+    border-top: 0.2em solid transparent;
+}
+
+.big-card-3 .profile i {
+    background: -webkit-linear-gradient(#fdc468, #df4996);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ========== Big card 4 ========== */
+
+.big-card-4 {
+    border-top-color: var(--YouTube);
+}
+
+.big-card-4 .profile i {
+    color: var(--YouTube);
+}
+
+@media screen and (min-width: 768px) {
+    /* .big-card-container {
+        display: grid;
+        grid-template-columns: repeat(autofit, 1fr);
+    } */
+}
