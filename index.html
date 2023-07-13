@@ -19,195 +19,218 @@
     </style>
 </head>
 <body>
-    <header >
-        <h1>Social Media Dashboard</h1>
-        <p class="desc">Total Followers: 23,004</p>
-        <p>Dark Mode</p>
-        <button class="btn">darkmodebtn</button>
-        
-    </header>
+    <section class="section">
 
-    <main>
-
-        <div class="big-card-container card-container-style">
-
-            <div class="big-card big-card-1">
-                <div class="profile">
-                    <i class='bx bxl-facebook-square bx-sm'></i>
-                    <p class="username">@nathanf</p>
-                </div>
-                <p class="subscribers">1987</p>
-                <p class="followers">followers</p>
-                <p class="subscribe-amount accent-green">
-                    <i class='bx bxs-up-arrow'></i>
-                    <span>12 Today</span>
-                </p>
+        <div class="header">
+            <div class="">
+                <h1 class="title">Social Media Dashboard</h1>
+                <p class="desc total">Total Followers: 23,004</p>
+                <div class="line"></div>
             </div>
-
-            <div class="big-card big-card-2">
-                <div class="profile">
-                    <i class='bx bxl-twitter' ></i>
-                    <p class="username">@nathanf</p>
+            <div class="dark-mode">
+                <p class="desc dark">Dark Mode</p>
+                <div class="button-container">
+                    <div class="container" >
+                        <input type="checkbox" id="check">
+                        <label for="check" class="button"></label>
+                    </div>
                 </div>
-                <p class="subscribers">1044</p>
-                <p class="followers">followers</p>
-                <p class="subscribe-amount accent-green">
-                    <i class='bx bxs-up-arrow'></i>
-                    <span>99 Today</span>
-                </p>
             </div>
             
-            <div class="big-card big-card-3">
-                <div class="profile">
-                    <i class='bx bxl-instagram' ></i>
-                    <p class="username">@realnathanf</p>
-                </div>
-                <p class="subscribers">11k</p>
-                <p class="followers">followers</p>
-                <p class="subscribe-amount accent-green">
-                    <i class='bx bxs-up-arrow'></i>
-                    <span>1099 Today</span>
-                </p>
-            </div>
-
-            <div class="big-card big-card-4">
-                <div class="profile">
-                    <i class='bx bxl-youtube' ></i>
-                    <p class="username">Nathan F.</p>
-                </div>
-                <p class="subscribers">8239</p>
-                <p class="followers">subscribers</p>
-                <p class="subscribe-amount accent-red">
-                    <i class='bx bxs-down-arrow' ></i>
-                    <span>144 Today</span>
-                </p>
-            </div>
+            
         </div>
-
-        <div class="small-card-container card-container-style">
-
-            <div class="small-card small-card-1">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
+    
+        <main>
+    
+            <div class="big-card-container card-container-style">
+    
+                <div class="big-card big-card-1">
                     <div class="profile">
                         <i class='bx bxl-facebook-square bx-sm'></i>
+                        <p class="username">@nathanf</p>
                     </div>
-                    <div class="subscribe-amount accent-green">
-                        <i class='bx bxs-up-arrow' ></i>
-                        <span>3%</span>
-                    </div>
+                    <p class="subscribers">1987</p>
+                    <p class="followers">followers</p>
+                    <p class="subscribe-amount accent-green">
+                        <i class='bx bxs-up-arrow'></i>
+                        <span>12 Today</span>
+                    </p>
                 </div>
-            </div>
-            <div class="small-card small-card-2">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
+    
+                <div class="big-card big-card-2">
                     <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
+                        <i class='bx bxl-twitter' ></i>
+                        <p class="username">@nathanf</p>
                     </div>
-                    <div class="subscribe-amount accent-red">
+                    <p class="subscribers">1044</p>
+                    <p class="followers">followers</p>
+                    <p class="subscribe-amount accent-green">
+                        <i class='bx bxs-up-arrow'></i>
+                        <span>99 Today</span>
+                    </p>
+                </div>
+                
+                <div class="big-card big-card-3">
+                    <div class="profile">
+                        <i class='bx bxl-instagram' ></i>
+                        <p class="username">@realnathanf</p>
+                    </div>
+                    <p class="subscribers">11k</p>
+                    <p class="followers">followers</p>
+                    <p class="subscribe-amount accent-green">
+                        <i class='bx bxs-up-arrow'></i>
+                        <span>1099 Today</span>
+                    </p>
+                </div>
+    
+                <div class="big-card big-card-4">
+                    <div class="profile">
+                        <i class='bx bxl-youtube' ></i>
+                        <p class="username">Nathan F.</p>
+                    </div>
+                    <p class="subscribers">8239</p>
+                    <p class="followers">subscribers</p>
+                    <p class="subscribe-amount accent-red">
                         <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
+                        <span>144 Today</span>
+                    </p>
                 </div>
             </div>
-            <div class="small-card small-card-3">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
+    
+            <p class="desc overview">Overview - Today</p>
+    
+            <div class="small-card-container card-container-style">
+    
+                <div class="small-card-row row-1">
+                    <div class="small-card small-card-1">
+                        <div class="left-card">
+                            <p class="desc">Page Views</p>
+                            <p class="num">87</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile">
+                                <i class='bx bxl-facebook-square bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-green">
+                                <i class='bx bxs-up-arrow' ></i>
+                                <span>3%</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
+                    <div class="small-card small-card-2">
+                        <div class="left-card">
+                            <p class="desc">Likes</p>
+                            <p class="num">52</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile">
+                                <i class='bx bxl-facebook-square bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-red">
+                                <i class='bx bxs-down-arrow' ></i>
+                                <span>2%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-card small-card-3">
+                        <div class="left-card">
+                            <p class="desc">Likes</p>
+                            <p class="num">5462</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile ig">
+                                <i class='bx bxl-instagram bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-green">
+                                <i class='bx bxs-up-arrow' ></i>
+                                <span>2257%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-card small-card-4">
+                        <div class="left-card">
+                            <p class="desc">Profile Views</p>
+                            <p class="num">52k</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile ig">
+                                <i class='bx bxl-instagram bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-green">
+                                <i class='bx bxs-up-arrow' ></i>
+                                <span>1375%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+    
+                <div class="small-card-row row-2">
+                    <div class="small-card small-card-5">
+                        <div class="left-card">
+                            <p class="desc">Retweets</p>
+                            <p class="num">117</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile">
+                                <i class='bx bxl-twitter bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-green">
+                                <i class='bx bxs-up-arrow' ></i>
+                                <span>303%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-card small-card-6">
+                        <div class="left-card">
+                            <p class="desc">Likes</p>
+                            <p class="num">507</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile">
+                                <i class='bx bxl-twitter bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-green">
+                                <i class='bx bxs-up-arrow' ></i>
+                                <span>553%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-card small-card-7">
+                        <div class="left-card">
+                            <p class="desc">Likes</p>
+                            <p class="num">107</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile yt">
+                                <i class='bx bxl-youtube bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-red">
+                                <i class='bx bxs-down-arrow' ></i>
+                                <span>19%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-card small-card-8">
+                        <div class="left-card">
+                            <p class="desc">Total Views</p>
+                            <p class="num">1407</p>
+                        </div>
+                        <div class="right-card">
+                            <div class="profile yt">
+                                <i class='bx bxl-youtube bx-sm'></i>
+                            </div>
+                            <div class="subscribe-amount accent-red">
+                                <i class='bx bxs-down-arrow' ></i>
+                                <span>12%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
-            <div class="small-card small-card-4">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
-                    </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="small-card small-card-5">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
-                    </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="small-card small-card-6">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
-                    </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="small-card small-card-7">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
-                    </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="small-card small-card-8">
-                <div class="left-card">
-                    <p class="desc">Page Views</p>
-                    <p class="num">87</p>
-                </div>
-                <div class="right-card">
-                    <div class="profile">
-                        <i class='bx bxl-facebook-square bx-sm'></i>
-                    </div>
-                    <div class="subscribe-amount accent-red">
-                        <i class='bx bxs-down-arrow' ></i>
-                        <span>3%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+        </main>
+    </section>
 
     
     
