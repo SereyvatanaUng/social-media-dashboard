@@ -141,6 +141,7 @@ input {
     border-top: 0.2em solid var(--Facebook);
     border-radius: .4em;
     padding: 1em 0;
+    cursor: pointer;
 
     display: flex;
     flex-direction: column;
@@ -251,6 +252,7 @@ input {
 .small-card {
     background-color: var(--Light-Grayish-Blue);
     border-radius: .4em;
+    cursor: pointer;
 
     display: flex;
     justify-content: space-between;
